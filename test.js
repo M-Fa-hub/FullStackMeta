@@ -191,41 +191,45 @@ for (let i = 1; i<10; i++) {
 
 
 
-class liveBeings{
-    constructor(breath = true, eat = true) {
-        this.breath = breath;
-        this.eat = eat;
-    }
-    reproduce(){
-        console.log("it can reproduce")
-    }
+// class liveBeings{
+//     constructor(breath = true, eat = true) {
+//         this.breath = breath;
+//         this.eat = eat;
+//     }
+//     reproduce(){
+//         console.log("it can reproduce")
+//     }
 
-    dies(){
-        console.log("it dies")
-    }   
-}
-
-
-class Animal extends liveBeings{
-    constructor(name, food) {
-        super(true, true);
-        this.name = name;
-        this.food = food;
-    }
-    eating(){
-        console.log(`${this.name} is eating ${this.food}`)
-    }
-}
+//     dies(){
+//         console.log("it dies")
+//     }   
+// }
 
 
-// Usage
-const cat = new Animal("Cat", "meat");
-cat.eating();        // Cat is eating meat
-cat.reproduce();     // It can reproduce
+// class Animal extends liveBeings{
+//     constructor(name, food) {
+//         super(true, true);
+//         this.name = name;
+//         this.food = food;
+//     }
+//     eating(){
+//         console.log(`${this.name} is eating ${this.food}`)
+//     }
+// }
 
-const shark = new Animal("Shark", "fish");
-shark.eating();      // Shark is eating fish
 
-const being = new liveBeings();
-being.reproduce();   // It can reproduce
-being.dies();        // It dies
+// // Usage
+// const cat = new Animal("Cat", "meat");
+// cat.eating();        // Cat is eating meat
+// cat.reproduce();     // It can reproduce
+
+// const shark = new Animal("Shark", "fish");
+// shark.eating();      // Shark is eating fish
+
+// const being = new liveBeings();
+// being.reproduce();   // It can reproduce
+// being.dies();        // It dies
+
+
+var name1 = "Ali"
+console.log(`Hi, I am ${nam1}`)
